@@ -1,0 +1,30 @@
+#searchText{
+    size=50;
+    border: 1px groove black;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    width: 600px;
+    height: 30px;
+    font-size: 20px;
+    font-style: bold;
+}
+
+#searchText:hover {
+    border: 1px groove black;
+    
+}
+
+#container{
+    margin: 40px auto;
+    width:600px;
+    border-style: inset;
+    border-color:black;
+    float:center;
+}
+
+h1,h2,h3{
+    margin: 5px auto;
+    width: 300px;
+    text-align: center;
+    color: black;
+}

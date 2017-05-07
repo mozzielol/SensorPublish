@@ -1,0 +1,53 @@
+html {
+    background: white;
+
+}
+
+h1,h2,h3{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    text-align: center;
+    font-family: cursive;
+    font-style: italic;
+}
+
+#container{
+    margin: 40px auto;
+    width:600px;
+    border-style: groove;
+    border-color:#000000;
+    border-width: 1px;
+    border-radius: 5px;
+    float:center;
+}
+
+a:link{
+    color:#1E88C7;
+    
+}
+
+a:visited{
+    color:#1E88C7;
+}
+
+a:hover{
+    color: coral;
+}
+
+ul{
+    color: #1E88C7;
+    list-style-type: none;
+    float:left;
+    text-align: left;
+    line-height: 30px;
+    
+}
+
+
+
+
+
+
+

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        {   
+            "Device":{
+                "Sensor":[
+            
+               { "name":"Hospital ",
+                "ID":" 005",
+               "Location":"Surrey Hospital",
+               "Type":"temperature",
+                
+                "UpdateTime":"Mon Apr 17 19:24:51 BST 2017"},
+                    
+            ]
+            }
+        }
+    

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <h1>MAWS</h1>
+    <center>
+    <a href="../html/MAWS.html" class="button button-glow button-rounded button-raised button-primary">Add Sensor Description</a>
+    <a href="../html/AddEvent.html" class="button button-glow button-rounded button-raised button-primary">Add Sensor Event</a>
+    <a href="../jsp/Query.jsp" class="button button-glow button-rounded button-raised button-primary">Query and Download</a>
+    <a href="../data/htmldata/Devices.html" class="button button-glow button-rounded button-raised button-primary">See the Xml File</a>
+    <a href="../jsp/WebService.jsp" class="button button-glow button-rounded button-raised button-primary">Web Service</a>
+    </center>
+        <hr>
+        <link rel="stylesheet" href="../css/homePage.css"/>
+        <link rel="stylesheet" href="../css/MASW.css"/>
+        <link rel="stylesheet" href="../css/mainstyle.css"/>
+        <script type="text/javascript" src="../js/MAWS.js"></script>
+        <script type="text/javascript" src="../js/tool.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=0.5, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes" />
+    </head>
+    
+    <body>
+        
+        <div id="container">
+            <form action="../jsp/AddSensorEvent.jsp" method="post" id="eventform" name="eventform">
+                <span  class = "sensorSpan">Sensor Name     :   </span>  <input type = "text" id="sensorName" name="sensorName" size="50"/><br>
+                <span  class = "sensorSpan">Sensor Event     :  </span><input type = "text" id="sensorEvent" name="sensorEvent" size="50" style="margin-bottom:20px"/><br>
+                <center>
+                    <a  href='javascript:document.eventform.submit();' class="button button-glow button-border button-rounded button-primary" type="submit">Publish</a>
+                    <a  href='javascript:document.eventform.reset();' class="button button-glow button-border button-rounded button-primary" type="submit">ClearAll</a>
+                </center>
+    
+            </form>
+            
+            <div id="errorMessage" ></div>
+        </div>
+        
+    </body>
+    
+</html>
